@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en" data-theme="pearl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shubhi Dixit — Computer Science undergraduate at Delhi Technological University building full-stack, AI/ML, agentic and distributed systems." />
+  <meta name="theme-color" content="#f5f2ea" />
+  <title>Shubhi Dixit — Portfolio</title>
+  <link rel="preconnect" href="https://raw.githubusercontent.com" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script>
+    (() => {
+      const saved = localStorage.getItem('portfolio-theme');
+      if (saved) document.documentElement.dataset.theme = saved;
+    })();
+  </script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Shubhi Dixit home">SD<span>.</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="theme-control">
+        <button class="theme-button" type="button" aria-label="Choose color theme" aria-expanded="false">
+          <span class="theme-swatch" aria-hidden="true"></span>
+          <span class="theme-button-label">Pearl</span>
+          <span class="theme-chevron">⌄</span>
+        </button>
+        <div class="theme-menu" role="menu" aria-label="Portfolio themes" hidden>
+          <button type="button" role="menuitem" data-theme-option="pearl"><i class="swatch pearl"></i><span>Pearl</span><small>Warm & clean</small></button>
+          <button type="button" role="menuitem" data-theme-option="sage"><i class="swatch sage"></i><span>Sage</span><small>Soft green</small></button>
+          <button type="button" role="menuitem" data-theme-option="lavender"><i class="swatch lavender"></i><span>Lavender</span><small>Cool & calm</small></button>
+          <button type="button" role="menuitem" data-theme-option="graphite"><i class="swatch graphite"></i><span>Graphite</span><small>Soft dark</small></button>
+        </div>
+      </div>
+      <a class="nav-cta" href="mailto:shubhidtu@gmail.com">Contact me</a>
+      <button class="menu-button" type="button" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell reveal">
+      <div class="hero-copy">
+        <div class="availability"><span></span> Open to internships & collaborations</div>
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Shubhi <span>Dixit</span></h1>
+        <p class="hero-role">Builder <b>•</b> Problem Solver <b>•</b> CS Student</p>
+        <p class="hero-college">Delhi Technological University</p>
+        <p class="hero-intro">I build intelligent full-stack systems that turn ambitious ideas into working, inspectable products — across AI, distributed systems and algorithmic optimisation.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View my work <span>↘</span></a>
+          <a class="button ghost" href="./assets/Shubhi-Dixit-Resume.pdf" target="_blank" rel="noopener">Resume <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-side">
+        <div class="portrait-wrap">
+          <img src="https://raw.githubusercontent.com/ShubhiDixit09/Portfolio/main/Picture_portfolio.jpeg" alt="Portrait of Shubhi Dixit" class="portrait" />
+          <div class="portrait-tag">DTU · CSE '29</div>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/ShubhiDixit09" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/shubhi-dixit-dtu/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://leetcode.com/u/shubhi_dixit_09/" target="_blank" rel="noopener">LeetCode ↗</a>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat"><strong>6+</strong><span>Featured projects</span></div>
+        <div class="stat"><strong>7</strong><span>Certificates & credentials</span></div>
+        <div class="stat"><strong>200+</strong><span>DSA problems solved</span></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell section-block reveal">
+      <p class="section-kicker">What I know</p>
+      <div class="section-heading-row">
+        <h2>Skills</h2>
+        <p>Strongest where software engineering, algorithms and intelligent systems meet.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="card-index">01</span>
+          <h3>Programming & Core CS</h3>
+          <p>C++ · Python · JavaScript · TypeScript · Data Structures & Algorithms · OOP · Operating Systems · Distributed Systems</p>
+        </article>
+        <article class="skill-card">
+          <span class="card-index">02</span>
+          <h3>Full-Stack Development</h3>
+          <p>React · Next.js · Node.js · Express · FastAPI · REST APIs · MongoDB · SQLite · Server-Sent Events</p>
+        </article>
+        <article class="skill-card">
+          <span class="card-index">03</span>
+          <h3>AI & Intelligent Systems</h3>
+          <p>Machine Learning · RAG · LLMs · Generative AI · LangGraph · Ollama · Gemma · Weaviate · Agentic AI · Multi-Agent Systems</p>
+        </article>
+        <article class="skill-card">
+          <span class="card-index">04</span>
+          <h3>Tools & Platforms</h3>
+          <p>Git · GitHub · Docker · Google Maps API · AWS PartyRock · Swytchcode · Pytest · Prompt Engineering</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell section-block projects-section">
+      <p class="section-kicker reveal">Selected work</p>
+      <div class="section-heading-row reveal">
+        <h2>Projects</h2>
+        <p>Real interfaces, technical depth and clear evidence of what each system actually does.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card reveal">
+          <div class="project-image-frame">
+            <img src="https://raw.githubusercontent.com/ShubhiDixit09/muskmelon/main/muskmelon-dashboard.png" alt="MuskMelon dashboard" loading="lazy" />
+            <span class="project-badge">Temporal AI · RAG</span>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>Next.js</span><span>TypeScript</span><span>Temporal RAG</span><span>Weaviate</span><span>OpenAI</span></div>
+            <div class="project-title-row"><h3>MuskMelon</h3><span>01</span></div>
+            <p class="project-subtitle">Version-Controlled Digital Twin of Elon Musk</p>
+            <p>An adaptive knowledge twin that tracks how documented knowledge and positions evolve over time instead of reducing a persona to a static chatbot.</p>
+            <ul class="project-points">
+              <li>Turns dated sources into traceable <strong>Knowledge Commits</strong> with provenance and temporal context.</li>
+              <li>Supports <strong>Now Mode, Time Lens and Belief Diff</strong> for current, historical and changing positions.</li>
+              <li>Uses <strong>Answer Receipts + a Knowledge–Voice Firewall</strong> to keep persona style separate from factual evidence.</li>
+            </ul>
+            <div class="project-links"><a href="https://github.com/ShubhiDixit09/muskmelon" target="_blank" rel="noopener">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-frame">
+            <img src="https://raw.githubusercontent.com/ShubhiDixit09/nsut-JeevanMesh/main/jeevanmesh-dashboard.png" alt="JeevanMesh rescue swarm command center" loading="lazy" />
+            <span class="project-badge">Distributed Systems</span>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>Next.js</span><span>TypeScript</span><span>Google Maps</span><span>Multi-Agent</span><span>Distributed Systems</span></div>
+            <div class="project-title-row"><h3>JeevanMesh</h3><span>02</span></div>
+            <p class="project-subtitle">Self-Healing Disaster-Response Drone Swarm</p>
+            <p>A leaderless, partition-tolerant rescue-swarm simulation designed to keep the mission running even when drones, links or routes fail.</p>
+            <ul class="project-points">
+              <li><strong>BubbleNet Adaptive Search</strong> reduced target-discovery time by 39.7% vs. grid scanning in the controlled prototype.</li>
+              <li>Self-healing agents dynamically reassign <strong>scout, verifier, relay and supply roles</strong> around failures and low battery.</li>
+              <li><strong>Store–carry–forward recovery + uncertainty maps</strong> preserve evidence and mission state through network partitions.</li>
+            </ul>
+            <div class="project-links"><a href="https://github.com/ShubhiDixit09/nsut-JeevanMesh" target="_blank" rel="noopener">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-frame">
+            <img src="https://raw.githubusercontent.com/ShubhiDixit09/NyayaBot.ShieldAI/main/nyayabot-dashboard.png" alt="NyayaBot legal assistance dashboard" loading="lazy" />
+            <span class="project-badge">Local-first AI</span>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>React</span><span>FastAPI</span><span>SQLite</span><span>Gemma</span><span>Ollama</span><span>RAG</span></div>
+            <div class="project-title-row"><h3>NyayaBot + ShieldAI</h3><span>03</span></div>
+            <p class="project-subtitle">Local-First Legal Action Engine</p>
+            <p>A privacy-conscious legal workflow that converts English, Hindi or Hinglish grievances into grounded legal information, procedures and fact-bound drafts.</p>
+            <ul class="project-points">
+              <li>Runs as a <strong>100% on-device workflow</strong> with local retrieval, local storage and optional Ollama/Gemma generation.</li>
+              <li>Uses <strong>hierarchical Act → Section retrieval</strong> plus ShieldAI checks for PII, prompt injection, citations and grounding.</li>
+              <li>Coordinates an <strong>8-tool ReAct workflow over a 13-table SQLite schema</strong> with conflict-safe, auditable case operations.</li>
+            </ul>
+            <div class="project-links"><a href="https://github.com/ShubhiDixit09/NyayaBot.ShieldAI" target="_blank" rel="noopener">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-frame">
+            <img src="https://raw.githubusercontent.com/ShubhiDixit09/ChronoSync-updated/main/chronosync-dashboard.png" alt="ChronoSync timetable dashboard" loading="lazy" />
+            <span class="project-badge">Optimisation</span>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>Next.js</span><span>FastAPI</span><span>Python</span><span>Genetic Algorithm</span><span>Tabu Search</span></div>
+            <div class="project-title-row"><h3>ChronoSync</h3><span>04</span></div>
+            <p class="project-subtitle">University Timetable Optimisation</p>
+            <p>A full-stack scheduling platform that treats university timetabling as a constraint-optimisation problem rather than a form-filling workflow.</p>
+            <ul class="project-points">
+              <li>Combines <strong>Genetic Algorithm → feasibility repair → Tabu Search</strong> for global exploration and local refinement.</li>
+              <li>Separates <strong>hard constraints from soft preferences</strong>, ensuring validity always dominates convenience.</li>
+              <li>Surfaces <strong>conflicts, fitness and convergence metrics</strong> so generated schedules remain inspectable and reproducible.</li>
+            </ul>
+            <div class="project-links"><a href="https://github.com/ShubhiDixit09/ChronoSync-updated" target="_blank" rel="noopener">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-frame">
+            <img src="https://raw.githubusercontent.com/ShubhiDixit09/SkillForge-updated/main/skillforge-dashboard.png" alt="SkillForge workflow dashboard" loading="lazy" />
+            <span class="project-badge">Agentic AI</span>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>Next.js</span><span>FastAPI</span><span>LangGraph</span><span>SQLite</span><span>SSE</span><span>Docker</span></div>
+            <div class="project-title-row"><h3>SkillForge</h3><span>05</span></div>
+            <p class="project-subtitle">Permissioned Agentic AI Runtime</p>
+            <p>A software-first runtime that converts natural-language goals into controlled, observable and verifiable software actions.</p>
+            <ul class="project-points">
+              <li>Implements a stateful <strong>plan → execute → verify</strong> loop across specialised Planning, Vision, Memory and Execution agents.</li>
+              <li>Keeps autonomy bounded through <strong>permissioned tool execution, stop rules and verification gates</strong>.</li>
+              <li>Streams execution through <strong>live SSE events</strong> and supports a deterministic zero-key mode for repeatable demos.</li>
+            </ul>
+            <div class="project-links"><a href="https://github.com/ShubhiDixit09/SkillForge-updated" target="_blank" rel="noopener">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-frame oon-image">
+            <img src="https://raw.githubusercontent.com/ShubhiDixit09/Oon-Nirnay-AWS/main/assets/oon-nirnay-dashboard.png" alt="Oon Nirnay wool decision navigator" loading="lazy" />
+            <span class="project-badge">Responsible GenAI</span>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>AWS PartyRock</span><span>Generative AI</span><span>LLMs</span><span>Prompt Engineering</span><span>Responsible AI</span></div>
+            <div class="project-title-row"><h3>Oon Nirnay</h3><span>06</span></div>
+            <p class="project-subtitle">Evidence-First Wool Decision Navigator</p>
+            <p>A multilingual decision-support system for rural wool entrepreneurs that turns one seasonal batch into a defensible market decision.</p>
+            <ul class="project-points">
+              <li>Compares <strong>raw sale, cleaned wool, yarn pilot and collective routes</strong> using real unit economics and cash constraints.</li>
+              <li>Separates <strong>buyer interest from quotations, commitments and deposits</strong> through an evidence-first decision workflow.</li>
+              <li>Produces one decision with <strong>missing-evidence checks, uncertainty, a Decision Challenger and a practical 30-day plan</strong>.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://partyrock.aws/u/shubhidixit/YF8fKzGqq/or-Oon-Nirnay" target="_blank" rel="noopener">Live app ↗</a>
+              <a href="https://github.com/ShubhiDixit09/Oon-Nirnay-AWS" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey" class="section-shell section-block reveal">
+      <p class="section-kicker">Research, campus & growth</p>
+      <div class="section-heading-row">
+        <h2>Journey</h2>
+        <p>Research-oriented AI work, campus communities, outreach and the foundations I am building at DTU.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-meta"><span>2026</span><small>AI Research</small></div>
+          <div><h3>Visual Commonsense Reasoning · AIMS DTU</h3><p>Explored joint answer–rationale reasoning for VCR, grounded dual-view inference, and follow-up directions around reverse rationale reasoning and answer–rationale consistency.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-meta"><span>2026</span><small>Campus</small></div>
+          <div>
+            <h3>DTU Communities & Societies</h3>
+            <p>Part of <strong>AIMS DTU</strong>, <strong>DTU Times</strong> and <strong>Business Bulls DTU</strong> — expanding across AI research, student-led initiatives, technology, communication and entrepreneurship.</p>
+            <div class="journey-tags"><span>AIMS DTU</span><span>DTU Times</span><span>Business Bulls DTU</span></div>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-meta"><span>2026</span><small>Community</small></div>
+          <div><h3>NSS · Educational Outreach</h3><p>Volunteered in community initiatives including mentoring underprivileged children and supporting educational outreach.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-meta"><span>2025–29</span><small>Education</small></div>
+          <div><h3>B.Tech Computer Science · DTU</h3><p>Building foundations across data structures, software engineering, operating systems, AI/ML, full-stack development and distributed systems.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificates" class="section-shell section-block reveal">
+      <p class="section-kicker">Credentials</p>
+      <div class="section-heading-row">
+        <h2>Certificates</h2>
+        <p>Seven completed course, competition and event credentials — with the actual certificates available to view.</p>
+      </div>
+      <div class="certificate-grid">
+        <a class="certificate-card" href="https://github.com/ShubhiDixit09/Portfolio/blob/main/Master%20DSA-C%2B%2B_ShubhiDixit.jpeg" target="_blank" rel="noopener">
+          <div class="certificate-thumb"><img src="https://raw.githubusercontent.com/ShubhiDixit09/Portfolio/main/Master%20DSA-C%2B%2B_ShubhiDixit.jpeg" alt="Coding Blocks Master Data Structures and Algorithms using C++ and System Design certificate" loading="lazy" /></div>
+          <div class="certificate-body"><span class="certificate-provider">Coding Blocks</span><strong>Master DSA · C++ & System Design</strong><small>Certificate of completion</small><span class="certificate-link">View certificate ↗</span></div>
+        </a>
+        <a class="certificate-card" href="https://github.com/ShubhiDixit09/Portfolio/blob/main/Master%20WEBD-MERN_ShubhiDixit.jpeg" target="_blank" rel="noopener">
+          <div class="certificate-thumb"><img src="https://raw.githubusercontent.com/ShubhiDixit09/Portfolio/main/Master%20WEBD-MERN_ShubhiDixit.jpeg" alt="Coding Blocks Master Full Stack Web Development with Node.js MERN certificate" loading="lazy" /></div>
+          <div class="certificate-body"><span class="certificate-provider">Coding Blocks</span><strong>Master Full-Stack Web Development · MERN</strong><small>Certificate of completion</small><span class="certificate-link">View certificate ↗</span></div>
+        </a>
+        <a class="certificate-card" href="https://github.com/ShubhiDixit09/Portfolio/blob/main/INVICTUS-DTU.jpeg" target="_blank" rel="noopener">
+          <div class="certificate-thumb"><img src="https://raw.githubusercontent.com/ShubhiDixit09/Portfolio/main/INVICTUS-DTU.jpeg" alt="INVICTUS DTU Guessapalooza first place certificate" loading="lazy" /></div>
+          <div class="certificate-body"><span class="certificate-provider">Technical Council · DTU</span><strong>INVICTUS '26 · Guessapalooza — 1st Place</strong><small>Certificate of appreciation</small><span class="certificate-link">View certificate ↗</span></div>
+        </a>
+        <a class="certificate-card" href="https://github.com/ShubhiDixit09/Portfolio/blob/main/WWM26-NOI-G-T042-M05_Shubhi-Dixit.jpg" target="_blank" rel="noopener">
+          <div class="certificate-thumb portrait-certificate"><img src="https://raw.githubusercontent.com/ShubhiDixit09/Portfolio/main/WWM26-NOI-G-T042-M05_Shubhi-Dixit.jpg" alt="Women Who Master Hackathon 2026 official attempt certificate" loading="lazy" /></div>
+          <div class="certificate-body"><span class="certificate-provider">Logitech × Aspire For Her</span><strong>Women Who Master Hackathon 2026</strong><small>Official Attempt · Zonal Round, Noida</small><span class="certificate-link">View certificate ↗</span></div>
+        </a>
+        <a class="certificate-card" href="https://www.kaggle.com/learn/certification/shubhidixit06/intro-to-machine-learning" target="_blank" rel="noopener">
+          <div class="certificate-thumb"><img src="https://raw.githubusercontent.com/ShubhiDixit09/Portfolio/main/Shubhi%20Dixit%20-%20Intro%20to%20Machine%20Learning.png" alt="Kaggle Intro to Machine Learning certificate" loading="lazy" /></div>
+          <div class="certificate-body"><span class="certificate-provider">Kaggle</span><strong>Intro to Machine Learning</strong><small>Course completion · July 2026</small><span class="certificate-link">View credential ↗</span></div>
+        </a>
+        <a class="certificate-card" href="https://www.kaggle.com/learn/certification/shubhidixit06/intermediate-machine-learning" target="_blank" rel="noopener">
+          <div class="certificate-thumb"><img src="https://raw.githubusercontent.com/ShubhiDixit09/Portfolio/main/Shubhi%20Dixit%20-%20Intermediate%20Machine%20Learning.png" alt="Kaggle Intermediate Machine Learning certificate" loading="lazy" /></div>
+          <div class="certificate-body"><span class="certificate-provider">Kaggle</span><strong>Intermediate Machine Learning</strong><small>Course completion · July 2026</small><span class="certificate-link">View credential ↗</span></div>
+        </a>
+        <a class="certificate-card" href="https://www.hackerrank.com/certificates/9e4a287c5c69" target="_blank" rel="noopener">
+          <div class="certificate-thumb"><img src="https://raw.githubusercontent.com/ShubhiDixit09/Portfolio/main/python_certification.jpg" alt="HackerRank Python Basic certificate" loading="lazy" /></div>
+          <div class="certificate-body"><span class="certificate-provider">HackerRank</span><strong>Python (Basic)</strong><small>Skill certification · July 2026</small><span class="certificate-link">View credential ↗</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="achievements" class="section-shell section-block achievement-section reveal">
+      <p class="section-kicker">Selected recognition</p>
+      <div class="section-heading-row achievement-heading">
+        <h2>Achievements</h2>
+        <p>A few milestones across engineering entrances, hackathons and problem-solving competitions.</p>
+      </div>
+
+      <div class="achievement-bento">
+        <article class="achievement-card achievement-card--hero">
+          <div class="achievement-card-top">
+            <span class="achievement-type">National Entrance</span>
+            <span class="achievement-index">01</span>
+          </div>
+          <div class="achievement-metric">99.08<span> percentile</span></div>
+          <h3>JEE Main</h3>
+          <p>Scored in the top percentile nationally in the engineering entrance examination.</p>
+        </article>
+
+        <article class="achievement-card achievement-card--hero">
+          <div class="achievement-card-top">
+            <span class="achievement-type">Hackathon</span>
+            <span class="achievement-index">02</span>
+          </div>
+          <div class="achievement-metric">4th<span> / 108</span></div>
+          <h3>VibeWright · Oblivion'26, NSUT</h3>
+          <p>Finished 4th in Round 2 after advancing from a 200+ team Round 1 field with MuskMelon.</p>
+        </article>
+
+        <article class="achievement-card achievement-card--compact">
+          <div class="achievement-card-top"><span class="achievement-type">Technical Fest</span><span class="achievement-index">03</span></div>
+          <div class="achievement-metric">1st</div>
+          <h3>Guessapalooza</h3>
+          <p>IEEE DTU · INVICTUS</p>
+        </article>
+
+        <article class="achievement-card achievement-card--compact">
+          <div class="achievement-card-top"><span class="achievement-type">National Entrance</span><span class="achievement-index">04</span></div>
+          <div class="achievement-metric achievement-metric--word">Qualified</div>
+          <h3>JEE Advanced</h3>
+          <p>Qualified the national-level examination.</p>
+        </article>
+
+        <article class="achievement-card achievement-card--compact">
+          <div class="achievement-card-top"><span class="achievement-type">Mathematics</span><span class="achievement-index">05</span></div>
+          <div class="achievement-metric">2nd</div>
+          <h3>State-Level Mental Mathematics</h3>
+          <p>Second-place finish at the state level.</p>
+        </article>
+
+        <article class="achievement-card achievement-card--compact">
+          <div class="achievement-card-top"><span class="achievement-type">Scholarship Exam</span><span class="achievement-index">06</span></div>
+          <div class="achievement-metric">#12</div>
+          <h3>MVPP Delhi</h3>
+          <p>Rank 12 among 20,000+ participants.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell contact-section reveal">
+      <p class="section-kicker">Get in touch</p>
+      <h2>Let's build<br/><span>something real.</span></h2>
+      <p>Open to internships, hackathons, research collaborations and interesting engineering problems.</p>
+      <div class="contact-primary">
+        <a class="contact-email" href="mailto:shubhidtu@gmail.com">shubhidtu@gmail.com <span>↗</span></a>
+        <a class="contact-phone" href="tel:+919311535683">+91 93115 35683 <span>↗</span></a>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/shubhi-dixit-dtu/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://github.com/ShubhiDixit09" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://leetcode.com/u/shubhi_dixit_09/" target="_blank" rel="noopener">LeetCode ↗</a>
+        <a href="https://codeforces.com/profile/shubhi.dixit.dtu" target="_blank" rel="noopener">Codeforces ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>Developed by Shubhi Dixit · New Delhi, India · 2026</span>
+    <span>Built with HTML, CSS & JavaScript</span>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
